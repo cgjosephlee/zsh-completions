@@ -15,3 +15,6 @@ update_comp "uvx --generate-shell-completion zsh"
 
 # curl -fsSL https://pixi.sh/install.sh | bash
 update_comp "pixi completion --shell zsh"
+
+# curl -fsSL https://fnm.vercel.app/install | bash
+update_comp "fnm completions --shell zsh"
